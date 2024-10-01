@@ -105,9 +105,15 @@ submitButton.addEventListener('click', (e) => {
 
     if (rating && userEmail) {
         const listItem = document.createElement('li');
+        
+        // Obtener la fecha y hora actual
+        const now = new Date();
+        const dateString = now.toLocaleString(); // Formato local de fecha y hora
+
         listItem.innerHTML = `
             <strong>${userEmail}</strong>: ${createStars(rating)}<br>
-            <span>${comment}</span>
+            <span>${comment}</span><br>
+            <em>${dateString}</em> <!-- Aquí se muestra la fecha -->
         `;
         ratingsList.appendChild(listItem);
 
