@@ -1,0 +1,93 @@
+
+   #imagenLogin{
+    max-width: 80%;
+   }
+   /* General container styles */
+   #formularioLogin {
+       display: flex;
+       justify-content: center;
+     }
+     
+     /* Form styles */
+     #formularioLogin form {
+       padding: 2.5rem; /* py-5 */
+     }
+     
+     /* Heading styles */
+     #formularioLogin h1 {
+       margin-bottom: 1.5rem; /* mb-3 */
+       font-weight: 600; /* fw-normal */
+       text-align: center;
+     }
+     
+     /* Floating label styles */
+     .form-floating {
+      max-width: 100%;
+       margin-top: 1.5rem; /* mt-5 */
+       display: flex;
+       justify-content: center;
+       border-color: #ffa500;
+     }
+  
+     /* Input styles */
+     .form-control {
+       border-radius: 0.25rem;
+       border-color: orange;
+     }
+     
+     #formularioLogin {
+       display: flex;
+       align-items: center; /* Centra verticalmente */
+       height: auto; /* Ocupa toda la altura de la pantalla */
+       padding-right: 2rem; /* Ajusta el espaciado a la derecha si es necesario */
+     }
+     
+     /* Estilo del rectángulo ovalado */
+     .oval-container {
+       background-color: #ffffff; /* Color de fondo del rectángulo ovalado */
+       border-radius: 30px; /* Ajusta el valor para obtener el ovalado deseado */
+       box-shadow: 0 4px 8px #ffa500(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+       padding: 1.5rem; /* Espaciado interno */
+       max-width: 350px; /* Tamaño máximo del rectángulo ovalado */
+       width: 100%; /* Ajusta el ancho al 100% del contenedor padre */
+       text-align: center; /* Centra el texto dentro del formulario */
+       border: 3px solid #ffa500;
+     }
+     
+    
+     
+
+     
+     /* Estilo del botón */
+     button {
+       width: 100%; /* Ajusta el ancho al 100% del formulario */
+       background-color: #ffa500;
+       border: none;
+       border-radius: 0.25rem;
+     }
+
+     #conteinerFormLogin{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #conteinerImgLogin{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     background-image: url("img\fondo.jpg");
+     }
+
+     #contenedorPrincipalLogin{
+      min-height: 100vh;
+      background-color: #fff0d4;
+      margin: 0;
+      padding: 0;
+      max-width: 100%;
+      max-height: 100%;
+     }
+     
+     
+   
+
+     
